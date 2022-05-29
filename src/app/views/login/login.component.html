@@ -1,0 +1,36 @@
+<div class="flex align-items-center justify-content-center">
+
+    <div class="card">
+
+      <p-card>
+  
+        <div class="field text-center">
+          <h2>Login SonarGain</h2>
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input [(ngModel)]="requestLogin.login" id="email" type="email"
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full">
+  
+        </div>
+  
+        <div class="field">
+          <label for="password">Password</label>
+          <input [(ngModel)]="requestLogin.password" id="password" type="password"
+            class="text-base text-color surface-overlay p-2 border-1 border-solid surface-border border-round appearance-none outline-none focus:border-primary w-full">
+        </div>
+
+        <div class="field">
+          
+          <a href="#RecuperarSenha">Recuperar senha</a>
+           </div>
+        <div class="flex justify-content-center">
+          <button pButton type="button" label="Entrar" class="button"></button>
+        </div>
+
+
+        
+      </p-card>
+    </div>
+  </div>
+  
