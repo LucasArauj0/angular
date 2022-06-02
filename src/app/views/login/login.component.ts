@@ -8,13 +8,13 @@ import { RequestLogin } from './resources/models/RequestLogin';
 })
 export class LoginComponent implements OnInit {
 
-  public requestLogin: RequestLogin;
+ // public requestLogin: RequestLogin;
 
 
   constructor() { }
 
   ngOnInit(): void {
-    this.requestLogin = new RequestLogin();
+   // this.requestLogin = new RequestLogin();
   }
 
 }

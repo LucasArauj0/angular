@@ -1,7 +1,7 @@
 export class RequestLogin {
 
-    public login: string;
-    public password: string;
+  // public login: string;
+//    public password: string;
 
 
 }
